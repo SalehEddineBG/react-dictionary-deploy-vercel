@@ -13,6 +13,7 @@ const ACTIONS = {
   DATA_FETCHED: 'Data is fetched successfully',
   DATA_NOT_FETCHED: 'An error has occured'
 };
+// some changes
 function reducer(state, action) {
   switch (action.type) {
     case ACTIONS.START_FETCHING_DATA: {
